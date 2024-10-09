@@ -8,15 +8,15 @@ programa
 	
 	funcao inicio()
 	{
-		real pre_u, quant, total, vl_pag, tro
+		real pre_uni, quant, total, vl_pag, tro
 
 		escreva ("Valor da mercadoria R$")
-		leia (pre_u)
+		leia (pre_uni)
 
 		escreva ("Quantidade da mercadoria :")
 		leia (quant)
 
-		total = pre_u * quant
+		total = pre_uni * quant
 
 		limpa()
 		escreva ("Valor da compra R$:" +total)
@@ -34,7 +34,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 664; 
+ * @POSICAO-CURSOR = 499; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
