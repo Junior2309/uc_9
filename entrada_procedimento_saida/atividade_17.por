@@ -20,7 +20,7 @@ programa
 		num_1 = num_2
 		num_2 = aux
 
-		escreva ("Os novos valores de A e B")
+		escreva ("Os novos valores de A e B:")
 		escreva ("\nA:" +num_1)
 		escreva ("\nB:" +num_2)
 
@@ -32,7 +32,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 275; 
+ * @POSICAO-CURSOR = 487; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
