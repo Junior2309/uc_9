@@ -11,14 +11,15 @@ programa {
     escreva("Digite o valor do terceiro numero: ")
     leia(num_3)
 
-    se (num_1<num_2 e num_1>num_3)
+    se (num_1<num_2 e num_1<num_3)
     {
-      escreva("O " , num_1 +" é o menor numero")
+      escreva("O " + num_1 +" é o menor numero")
     } 	senao se (num_2<num_1 e num_2<num_3){
-    	 	escreva("O " , num_2 +" é o menor numero")
+    	 	escreva("O " + num_2 +" é o menor numero")
     		} 	senao se (num_3<num_1 e num_3<num_2){
-    		escreva("O " , num_3 +" é o menor numero")
+    		escreva("O " + num_3 +" é o menor numero")
     		}
+ 
     }
 }
 
@@ -27,7 +28,7 @@ programa {
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 87; 
+ * @POSICAO-CURSOR = 642; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
