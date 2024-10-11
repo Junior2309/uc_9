@@ -7,21 +7,34 @@ programa
 	
 	funcao inicio()
 	{
-		real mt, pol = 25.4, pes = 30.38, milhas = 1609.344
-		cadeia medicao
+		real mt, pol = 25.4, pes = 0.3038, milhas = 1609.344, conversao
+		inteiro medicao
 		
-		escreva("Informe a metragem")
+		escreva("Informe a metragem: ")
 		leia(mt)
-		escreva("Escolha a opição de converção")
+		escreva("Escolha a converção: (1=Polegadas, 2=Pes, 3=Milhas)")
+		leia (medicao)
 
-		escolha(medicao){
+		se(medicao == 1)	{
+			conversao = mt*pol
+			escreva("O valor de "+mt+" em polegadas será de "+conversao)
+			}senao 
+				se(medicao == 2){
+					conversao = mt/pes
+					escreva("O valor de "+mt+" em pé será de "+conversao)
+					}senao 
+						se(medicao == 3){
+						conversao = mt/milhas
+						escreva("O valor de "+mt+" em pé será de "+conversao)
+						}
 			
 			
+			
 
 
 
 			
-		}
+		
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -29,7 +42,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 321; 
+ * @POSICAO-CURSOR = 744; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
