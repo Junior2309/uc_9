@@ -1,26 +1,23 @@
-/*Faça um programa que calcule a soma dos
-números de 1 a 100*/
+/*Faça um programa que imprima os números
+pares de 0 até 100*/
 programa
 {
 	
 	funcao inicio()
 	{
-		inteiro soma = 0, i
-		
-		para(i = 1;i <= 100; i++)
-		{
-			soma = soma + i
-		
-		}escreva(soma)
+		inteiro impar
+
+		para(impar=1;impar<=100;impar=impar+2){
+			escreva(impar," ")
+		}
 	}
 }
-
 /* $$$ Portugol Studio $$$ 
  * 
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 174; 
+ * @POSICAO-CURSOR = 132; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

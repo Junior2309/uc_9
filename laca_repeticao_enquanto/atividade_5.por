@@ -6,17 +6,19 @@ programa
 	
 	funcao inicio()
 	{
-		inteiro num, fato, resul
-		escreva("Informe um numero: ")
+		inteiro num, fato=1, i=1
+		
+		escreva("informe um numero: ")
 		leia(num)
-		fato=10
-		enquanto(fato<=num e num==10){
-			
-			num= t(num*fato)
-			fato=fato-1
-			resul=num*fato
-			escreva(resul,"\n")
-		}
+		limpa()
+		
+		enquanto(i <= num)
+		{
+            fato = fato * i 
+            i = i + 1 
+            
+     
+		}escreva("O fatorial de ", num, " é: ", fato)
 	}
 }
 
@@ -25,7 +27,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 249; 
+ * @POSICAO-CURSOR = 357; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
