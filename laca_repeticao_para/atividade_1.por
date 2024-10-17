@@ -5,13 +5,13 @@ programa
 	
 	funcao inicio()
 	{
-		inteiro soma
+		inteiro soma=0, i
 		
-		para(soma=0;soma<100;soma=soma+1)
-			{
-			
-			
-			}
+		para(i=0;i<=100;i++)
+		{
+		soma=soma+i
+		
+		}
 	}
 }
 /* $$$ Portugol Studio $$$ 
