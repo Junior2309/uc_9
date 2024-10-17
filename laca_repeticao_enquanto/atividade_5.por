@@ -1,25 +1,23 @@
-/*Faça um programa que solicite que o usuário digite
-números e a cada número digitado some com o
-anterior até que chegue ou passe de 100.*/
+/*Faça um programa que solicite um número inteiro
+positivo e calcule o seu fatorial.
+*/
 programa
 {
 	
 	funcao inicio()
 	{
-		inteiro num, soma
-		escreva("Escreva um numero: ")
+		inteiro num, fato, resul
+		escreva("Informe um numero: ")
 		leia(num)
-
-		soma=num
-
-		enquanto(soma<=100){
-		escreva("Escreva outro numero: ")
-		leia(num)
-		soma=soma+num
-		}	
-		escreva(soma)	
-	}  
-	
+		fato=10
+		enquanto(fato<=num e num==10){
+			
+			num= t(num*fato)
+			fato=fato-1
+			resul=num*fato
+			escreva(resul,"\n")
+		}
+	}
 }
 
 /* $$$ Portugol Studio $$$ 
@@ -27,7 +25,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 333; 
+ * @POSICAO-CURSOR = 249; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

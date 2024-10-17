@@ -1,33 +1,28 @@
-/*Faça um programa que solicite que o usuário digite
-números e a cada número digitado some com o
-anterior até que chegue ou passe de 100.*/
+/*Faça um programa que solicite um número
+inteiro positivo e exiba todos os números
+ímpares de 1 até o número informado.*/
 programa
 {
 	
 	funcao inicio()
 	{
-		inteiro num, soma
-		escreva("Escreva um numero: ")
-		leia(num)
-
-		soma=num
-
-		enquanto(soma<=100){
-		escreva("Escreva outro numero: ")
-		leia(num)
-		soma=soma+num
-		}	
-		escreva(soma)	
-	}  
-	
+		inteiro num, impar
+			
+			escreva("Informe um numero impar: ")
+			leia(num)
+			impar=1
+		enquanto(impar<=num){
+			impar=impar+2
+			escreva(impar," ")
+		}
+	}
 }
-
 /* $$$ Portugol Studio $$$ 
  * 
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 333; 
+ * @POSICAO-CURSOR = 266; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
