@@ -1,20 +1,12 @@
-/*Faça um programa que solicite um número
-inteiro positivo e exiba todos os números
-ímpares de 1 até o número informado.*/
+/*Escreva um programa que solicite ao usuário
+seu nome e sua idade e repita a solicitação até
+que sua idade seja entre 18 e 60 anos.*/
 programa
 {
 	
 	funcao inicio()
 	{
-		inteiro num, impar
-			
-			escreva("Informe um numero impar: ")
-			leia(num)
-			impar=1
-		enquanto(impar<=num){
-			escreva(impar," ")
-			impar=impar+2
-		}
+		inteiro
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -22,7 +14,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 307; 
+ * @POSICAO-CURSOR = 59; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

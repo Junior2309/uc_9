@@ -1,19 +1,19 @@
-/*Faça um programa que solicite um número
-inteiro positivo e exiba todos os números
-ímpares de 1 até o número informado.*/
+/*Faça um programa que solicite um número inteiro
+positivo e imprima todos os números pares de 2
+até o número informado.
+*/
 programa
 {
 	
 	funcao inicio()
 	{
-		inteiro num, impar
-			
-			escreva("Informe um numero impar: ")
-			leia(num)
-			impar=1
-		enquanto(impar<=num){
-			escreva(impar," ")
-			impar=impar+2
+		inteiro num, par
+		escreva("Informe um numero: ")
+		leia(num)
+		par=0
+		enquanto(num>=par){
+		escreva(par,"  ")
+		par=par+2
 		}
 	}
 }
@@ -22,7 +22,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 307; 
+ * @POSICAO-CURSOR = 287; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

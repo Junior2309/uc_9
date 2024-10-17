@@ -1,19 +1,18 @@
-/*Faça um programa que solicite um número
-inteiro positivo e exiba todos os números
-ímpares de 1 até o número informado.*/
+/*Faça um programa que imprima a tabuada de um
+número inserido pelo usuário.*/
 programa
 {
 	
 	funcao inicio()
 	{
-		inteiro num, impar
-			
-			escreva("Informe um numero impar: ")
-			leia(num)
-			impar=1
-		enquanto(impar<=num){
-			escreva(impar," ")
-			impar=impar+2
+		inteiro tab, i, mult=0, resul
+	
+		escreva("Qual tabuada deseja o resultado: ")
+		leia(tab)
+		para(i=0;i<=10;i++){
+			//mult=mult+1
+			resul=tab*i
+			escreva(tab,"x",i,"=",resul,"\n")
 		}
 	}
 }
@@ -22,7 +21,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 307; 
+ * @POSICAO-CURSOR = 133; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

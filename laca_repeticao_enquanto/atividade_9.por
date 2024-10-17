@@ -1,19 +1,28 @@
-/*Faça um programa que solicite um número
-inteiro positivo e exiba todos os números
-ímpares de 1 até o número informado.*/
+/*Faça um programa que solicite um número inteiro
+positivo e imprima a sequência de Fibonacci até o
+valor informado.*/
 programa
 {
 	
 	funcao inicio()
 	{
-		inteiro num, impar
+		inteiro num, f1, f2, resul
+
+		escreva("Informe um numero: ")
+		leia(num)
+		
+		f1=0
+		f2=1
+
+		escreva("Sequência de Fibonacci até ", num, ": ")
+		enquanto(f1 <= num){
+					
+			escreva(f1, " ")
+			resul=f1+f2
+			f1=f2
+			f2=resul
 			
-			escreva("Informe um numero impar: ")
-			leia(num)
-			impar=1
-		enquanto(impar<=num){
-			escreva(impar," ")
-			impar=impar+2
+			
 		}
 	}
 }
@@ -22,7 +31,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 307; 
+ * @POSICAO-CURSOR = 405; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
