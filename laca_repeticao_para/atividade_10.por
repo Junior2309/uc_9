@@ -6,7 +6,7 @@ programa
 	
 	funcao inicio()
 	{
-		inteiro x, y, soma=0, aux
+		inteiro x, y, soma, aux, i
 
 		escreva("Escreva um número: ")
 		leia(x)
@@ -19,18 +19,20 @@ programa
 			y=aux
 		}
 		
-		se(x%2==0){
+		se(x<=0 e x%2==0){
 			x=x+1
 		}senao{
 			x=x+2
 		}
-		para( inteiro i=x; x<=y; i=i+1){
+		
+		para( i=x; i<=y; i=i+1){
+			soma=x
 			se( x % 2 != 0){
-			soma=soma+i
+			soma=soma+x
 			}
-			
+			escreva(soma," ")
 		}
-		escreva(soma," ")
+		
 	}
 }
 
@@ -39,7 +41,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 384; 
+ * @POSICAO-CURSOR = 506; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
