@@ -15,15 +15,15 @@ programa
 		escreva("Escolha a converção: (Polegadas, Pes, Milhas)")
 		leia (medicao)
 
-		se(medicao == "Polegadas")	{
+		se(medicao == "Polegadas" ou medicao == "polegadas")	{
 			conversao = mt*pol
 			escreva("O valor de "+mt+" em polegadas será de "+conversao)
 			}senao 
-				se(medicao == "Pes"){
+				se(medicao == "Pes" ou medicao == "pes"){
 					conversao = mt/pes
 					escreva("O valor de "+mt+" em pé será de "+conversao)
 					}senao 
-						se(medicao == "Milhas"){
+						se(medicao == "Milhas" ou medicao == "milhas"){
 						conversao = mt/milhas
 						escreva("O valor de "+mt+" em pé será de "+conversao)
 						}
@@ -42,7 +42,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 697; 
+ * @POSICAO-CURSOR = 760; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
