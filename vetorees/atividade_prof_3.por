@@ -10,14 +10,20 @@ programa
 	
 	funcao inicio()
 	{
-		caracter senha[6]
+		caracter senha[6], crip
 		inteiro i
 
 		para(i=0;i<6;i++){
 			escreva("Informe a sua senha digitando uma caracter e pressionando o enter. ")
-			leia(senha[6])
-			
-		}
+			leia(senha[i])
+
+				se(senha[i]=='a' ou senha[i]=='e' ou senha[i]=='i' ou senha[i]=='o' ou senha[i]=='u'){
+				crip = crip + 'z'
+				}senao{
+					escreva("Caracter invalido")
+					pare
+				}
+			}
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -25,7 +31,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 696; 
+ * @POSICAO-CURSOR = 829; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
