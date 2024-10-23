@@ -7,8 +7,9 @@ programa
 	
 	funcao inicio()
 	{
-		cadeia nomes[11]
-		inteiro gols[11], i
+		cadeia nomes[11], jog_art="elenco"
+		inteiro gols[11], i, arti=-1
+		
 
 		escreva("\n============================")
 		escreva("\n==Sistema de armz. de gols==")
@@ -18,12 +19,19 @@ programa
 			leia(nomes[i])
 			escreva("\nQuantidade de gols: ")
 			leia(gols[i])
+			se(arti>=gols[i]){
+				arti=gols[i]
+				jog_art=nomes[i]
+			}
 			escreva("\n============================")
 		}
+		
 		escreva("\n============================")
 		escreva("\n====Resultados dos jogos====")
 		para(i=0;i<11;i++){
 			escreva("Jogador: ",nomes[i],", Gols: ", gols[i],"\n")
+			
+			escreva("\n O artileira do campeonato foi ",jog_art," com ",arti," gols.")
 		}
 		escreva("\n============================")
 	}
@@ -33,7 +41,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 762; 
+ * @POSICAO-CURSOR = 630; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
