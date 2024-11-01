@@ -23,12 +23,13 @@ programa
 		escreva("Valor de delta: "+delta)
 
 		se(delta<=0){
-			escreva ("então a equação não possui resultados reais")
+			escreva ("\nentão a equação não possui resultados reais")
 			}senao 	
 				se(delta>= 1){
 					x1=(-num_b+(mat.raiz(delta,2.0)))/ (2*num_a)
-					
+					x1=mat.arredondar(x1, 2.0)
 					x2=(-num_b-(mat.raiz(delta,2.0)))/(2*num_a)
+					x2=mat.arredondar(x2, 2.0)
 					escreva("\nvalor de X1 e X2")
 					escreva("\nValor x1: "+x1)
 					escreva("\nValor x2: "+x2)
@@ -41,7 +42,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 708; 
+ * @POSICAO-CURSOR = 805; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
